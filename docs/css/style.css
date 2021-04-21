@@ -107,8 +107,8 @@ header video {
     height: 90vh;
 }
 
-.img-top2 {
-    opacity: 0.5;
+.img-top1 {
+    opacity: 0.3;
 }
 
 /*
@@ -494,7 +494,7 @@ img{
 /*アコーディオンで現れるエリア*/
 .box {
     display: none;/*はじめは非表示*/
-    background: #f3f3f3;
+    background: black;
 	margin:0 3% 3% 3%;
     padding: 3%;
 }
@@ -685,3 +685,16 @@ opacity: 0;
  .slick-dots .slick-active button{
      background:#333;/*ドットボタンの現在地表示の色*/
  }
+
+
+.blue {
+    color: rgb(56, 209, 201);
+}
+
+.small {
+    font-size: smaller;
+}
+
+.max-heigth {
+    max-height: 420px;
+}
